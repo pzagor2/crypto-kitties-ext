@@ -4,9 +4,7 @@
   "description": "Crypto Kitties",
   "version": "1.0",
   "options_ui": {
-    // Required.
     "page": "options.html",
-    // Recommended.
     "chrome_style": true
   },
   "browser_action": {
