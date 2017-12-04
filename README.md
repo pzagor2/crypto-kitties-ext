@@ -5,6 +5,7 @@
 
 Features:
 * Show cattributes on any cat grid
+* Each cattribute record now shows a number of cats with this attribute in the system (Data is not live and updated in real time).
 * ...
 
 
