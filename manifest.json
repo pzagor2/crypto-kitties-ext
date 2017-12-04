@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Crypto Kitties EXT",
+  "description": "Crypto Kitties",
+  "version": "1.0",
+  "options_ui": {
+    // Required.
+    "page": "options.html",
+    // Recommended.
+    "chrome_style": true
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+      {
+        "matches": ["https://www.cryptokitties.co/*"],
+        "js": ["myscript.js"]
+      }
+    ]
+}
