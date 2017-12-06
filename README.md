@@ -1,6 +1,9 @@
 # Crypto Kitties Chrome Extension
 
 
+You should use this https://github.com/HaJaeKyung/KittyExtension
+It's way better and up to date :D
+
 ![Screenshot](/screenshot.png?raw=true)
 
 Features:
